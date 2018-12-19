@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Articles</title>
+        <meta charset="utf-8">
+        <script src='app.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">        
+    </head>
+    <body>
+        <script type='text/javascript'></script>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 10px">
+                <h2>Articles</h2>
+                <select class="custom-select" id="field">
+                    <option id="id">id</option>
+                    <option id="text">text</option>
+                    <option id="title">title</option>
+                    <option id="date" selected>date</option>
+                    <option id="author">author</option>
+                </select>
+                <select class="custom-select" id="order">
+                    <option id="desc">desc</option>
+                    <option id="asc">asc</option>
+                </select>
+                <button class="btn" onclick="window.location.replace('./form.html')">add article</button>
+            </nav>                    
+        </div>
+        <div id="articles">
+
+        </div>
+        <div id="pages">
+
+        </div>
+    </body>
+</html>
